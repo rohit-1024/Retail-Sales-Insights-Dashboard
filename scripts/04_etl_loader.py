@@ -1,3 +1,19 @@
+from dotenv import load_dotenv
+import os
+
+
+# ------------------------------------------------------------------------------
+# Load Environment Variables from .env file
+
+load_dotenv()
+
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_NAME = os.getenv("DB_NAME")
+
+
 '''
                 NOTE : ETL Loader
 Load Transformed Data into Data Warehouse (MySQL Database)
@@ -45,11 +61,11 @@ print("\n--------------------------------------------------------------------\n"
 print("Connecting to MySQL Data Warehouse...\n")
 
 connection = mysql.connector.connect(
-    host="localhost",
-    port=3306,
-    user="root",
-    password="@Rohit1024",
-    database="retail_dw"
+    host=DB_HOST,
+    port=DB_PORT,
+    user=DB_USER,
+    password=DB_PASSWORD,
+    database=DB_NAME
 )
 
 cursor = connection.cursor()
