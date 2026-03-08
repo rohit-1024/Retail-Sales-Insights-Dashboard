@@ -1,3 +1,4 @@
+---
 
 # Retail Sales Data Warehouse & Business Intelligence Dashboard
 
@@ -247,7 +248,6 @@ Dashboard Features:
 - Real-time database queries
 
 ---
----
 
 ## Dashboard Pages
 
@@ -304,7 +304,6 @@ Regional performance analysis:
 - Geographic sales distribution
 
 ---
----
 
 ## Dashboard Screenshots
 
@@ -339,10 +338,10 @@ Regional performance analysis:
 ![Geographic Insights](screenshots/geographic_insights.png)
 
 ---
----
 
 ## Project Folder Structure
 
+```
 retail_sales_insights_dashboard/
 │
 ├── data/
@@ -382,8 +381,8 @@ retail_sales_insights_dashboard/
 ├── .gitignore
 │
 └── .env
+```
 
----
 ---
 
 ## ⚙️ Installation & Setup
@@ -477,7 +476,6 @@ streamlit run dashboard/app.py
 The dashboard will open automatically in your browser at `http://localhost:8501/`
 
 ---
----
 
 ## Key Skills Demonstrated
 
@@ -493,7 +491,6 @@ This project demonstrates skills in:
 - Modular Software Architecture
 
 ---
----
 
 ## Project Use Cases
 
@@ -505,7 +502,6 @@ This system can be used for:
 - Geographic sales insights
 - Business decision support
 
----
 ---
 
 ## 🤝 Contribution
@@ -524,5 +520,4 @@ This project is licensed under the **MIT License**.
 - 📧 [rohit.it4368@gmail.com](mailto:rohit.it4368@gmail.com)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/rohitraut1024/)
 
----
 ---
