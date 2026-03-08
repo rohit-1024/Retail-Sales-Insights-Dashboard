@@ -1,5 +1,3 @@
----
-
 # Retail Sales Data Warehouse & Business Intelligence Dashboard
 
 A complete **end-to-end data warehousing and analytics project** that builds a **Retail Sales Data Warehouse** using MySQL and provides **interactive business intelligence dashboards** using Streamlit.
@@ -35,6 +33,7 @@ The system answers questions such as:
 
 ## Project Architecture
 
+```
 		Raw Dataset (CSV)
 		       │
 		       ▼
@@ -54,7 +53,7 @@ The system answers questions such as:
  		       │
  		       ▼
 	Streamlit Interactive Dashboard
-
+```
 
 ---
 
@@ -77,7 +76,7 @@ The system answers questions such as:
 
 Dataset used: **Online Retail Dataset**
 
-Source: `https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset/`
+Source: [https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset/](https://www.kaggle.com/datasets/lakshmi25npathi/online-retail-dataset/)
 
 The dataset contains transactional records from a UK-based online retail store.
 
@@ -116,7 +115,6 @@ The warehouse uses a **Star Schema** to support efficient analytical queries.
 | quantity | Quantity sold |
 | revenue | Sales revenue |
 
----
 
 ### Dimension Tables
 
@@ -128,7 +126,6 @@ The warehouse uses a **Star Schema** to support efficient analytical queries.
 | stock_code | Product identifier |
 | product_name | Product description |
 
----
 
 #### customer_dimension
 
@@ -137,7 +134,6 @@ The warehouse uses a **Star Schema** to support efficient analytical queries.
 | customer_id | Primary key |
 | country | Customer country |
 
----
 
 #### date_dimension
 
@@ -473,7 +469,7 @@ This will populate the warehouse tables
 streamlit run dashboard/app.py
 ```
 
-The dashboard will open automatically in your browser at `http://localhost:8501/`
+The dashboard will open automatically in your browser at [http://localhost:8501/](http://localhost:8501/)
 
 ---
 
